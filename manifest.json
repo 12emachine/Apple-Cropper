@@ -2,7 +2,7 @@
     "name": "Mobile Image Cropper",
     "short_name": "ImageCrop",
     "description": "Upload, crop, and download images on mobile",
-    "start_url": "/Photo-Cropper-/index.html",
+    "start_url": "/Apple-Cropper-/index.html",
     "display": "standalone",
     "background_color": "#f3f4f6",
     "theme_color": "#4f46e5",
