@@ -1,7 +1,7 @@
 const CACHE_NAME = 'image-cropper-v1';
 const urlsToCache = [
-    '/Photo-Cropper-/index.html',
-    '/Photo-Cropper-/',
+    '/Apple-Cropper-/index.html',
+    '/Apple-Cropper-/',
     'https://cdn.tailwindcss.com'
 ];
 
