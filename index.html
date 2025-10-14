@@ -7,12 +7,12 @@
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- PWA Meta Tags -->
-    <link rel="manifest" href="/Photo-Cropper-/manifest.json">
+    <link rel="manifest" href="/Apple-Cropper-/manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#4f46e5">
-    <link rel="apple-touch-icon" href="/Photo-Cropper-/icon-192.png">
-    <link rel="apple-touch-startup-image" href="/Photo-Cropper-/splash-2048x2732.png">
+    <link rel="apple-touch-icon" href="/Apple-Cropper-/icon-192.png">
+    <link rel="apple-touch-startup-image" href="/Apple-Cropper-/splash-2048x2732.png">
     <style>
         /* Existing styles remain unchanged */
         body { font-family: 'Inter', sans-serif; min-height: 100vh; margin: 0; background-color: #f3f4f6; }
@@ -423,7 +423,7 @@
        
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/Photo-Cropper-/sw.js')
+        navigator.serviceWorker.register('/Apple-Cropper-/sw.js')
             .then((registration) => {
                 console.log('Service Worker registered:', registration);
             })
